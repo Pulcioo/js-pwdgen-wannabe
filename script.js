@@ -1,16 +1,20 @@
 // chiedere nome all'utente
-const name = prompt('quale è il tuo nome?');
+const yourName = prompt('quale è il tuo nome?');
 
-console.log(name)
+console.log(yourName)
 
 // chiedere cognome all'utente
-const surname = prompt('quale è il tuo cognome?');
+const yourSurname = prompt('quale è il tuo cognome?');
 
-console.log(surname)
+console.log(yourSurname)
 
 // chiedere il colore preferito all'utente
-const favouriteColor = prompt('quale è il tuo colore preferito?');
+const yourFavouriteColor = prompt('quale è il tuo colore preferito?');
 
-console.log(favouriteColor)
+console.log(yourFavouriteColor)
 
 // creo una password con i dati dell'utente piu il numero 21
+const password = yourName + yourSurname + yourFavouriteColor + 21;
+
+// scrivo in console la password creata
+console.log(password)   
