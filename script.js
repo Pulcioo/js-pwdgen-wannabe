@@ -17,4 +17,7 @@ console.log(yourFavouriteColor)
 const password = yourName + yourSurname + yourFavouriteColor + 21;
 
 // scrivo in console la password creata
-console.log(password)   
+console.log(password)
+
+// aggiungo in document nel tag h1 la password creata
+document.getElementById('your-password').innerText = 'La tua password è ' + password
